@@ -18,7 +18,7 @@
 
 ### reality和hysteria2 wss三合一脚本
 ```bash
-bash <(curl -fsSL https://github.com/tiktok11/tiktok11socks/raw/main/reality_hy2_ws.sh)
+bash <(curl -fsSL https://github.com/352928958songqian-del/tiktok11socks/raw/main/reality_hy2_ws.sh)
 ```
 
 
