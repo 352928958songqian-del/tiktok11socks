@@ -411,8 +411,8 @@ echo ""
 hy_password=$(/root/sing-box generate rand --hex 8)
 
 # Ask for listen port
-read -p "Enter desired hysteria2 listen port (default: 8443): " hy_listen_port
-hy_listen_port=${hy_listen_port:-8443}
+read -p "Enter desired hysteria2 listen port (default: 8888): " hy_listen_port
+hy_listen_port=${hy_listen_port:-8888}
 echo ""
 
 # Ask for self-signed certificate domain
