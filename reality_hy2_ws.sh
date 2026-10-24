@@ -884,7 +884,8 @@ jq -n --arg listen_port "$listen_port" --arg vmess_port "$vmess_port" --arg vmes
       },
       {
         "inbound": ["vless-in", "hy2-in", "vmess-in"],
-        "action": "direct"
+        "action": "route",
+        "outbound": "direct"
       }
     ],
     "final": "direct"
