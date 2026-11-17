@@ -746,8 +746,8 @@ short_id=$(/root/sbox/sing-box generate rand --hex 8)
 echo "uuid和短id 生成完成"
 echo ""
 # Ask for listen port
-read -p "请输入Reality端口 (default: 443): " listen_port
-listen_port=${listen_port:-443}
+read -p "请输入Reality端口 (default: 8888): " listen_port
+listen_port=${listen_port:-8888}
 echo ""
 # Ask for server name (sni)
 read -p "请输入想要使用的域名 (default: itunes.apple.com): " server_name
@@ -760,8 +760,8 @@ echo ""
 hy_password=$(/root/sbox/sing-box generate rand --hex 8)
 
 # Ask for listen port
-read -p "请输入hysteria2监听端口 (default: 8443): " hy_listen_port
-hy_listen_port=${hy_listen_port:-8443}
+read -p "请输入hysteria2监听端口 (default: 443): " hy_listen_port
+hy_listen_port=${hy_listen_port:-443}
 echo ""
 
 # Ask for self-signed certificate domain
